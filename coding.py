@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# 中文coding
+# 告诉Python解释器，按照UTF-8编码读取源代码
 
 print u'中文测试'
 print u'ABC test'
