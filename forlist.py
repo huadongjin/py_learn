@@ -10,7 +10,7 @@ print "count len is: %d " % len(the_count)
 
 # for x in xs:
 for num in the_count:
-	print "now num is: %d " % num
+	print "now num is: %s " % num
 
 double_count = [1,2,3,[11,22],4]
 # for count in counts and add condition check
@@ -24,6 +24,6 @@ for dc in double_count:
 
 print '不可变tuple'
 tuple_count = ('ddW','we','try','it')
-# for tc in tuple_count
-#	print "tc is: %s " %tc
-print "tc is: %s " % tuple_count[1]
+for tc in tuple_count:
+	print "tc is: %s " % tc
+print "tc[1] is: %s " % tuple_count[1]
